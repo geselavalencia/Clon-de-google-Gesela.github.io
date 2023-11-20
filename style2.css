@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #020202;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    height: 70px;
+    padding: 0 18px;
+}
+
+header .options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .options a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+
+header .options a img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.dots-logo {
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+
+.search-logo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+	
+	
+}
+.micro-logo {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: center;
+}
+
+
+main {
+    height: calc(100% - 60px - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+main .container figure{
+    height: 92px;
+}
+main .container figure img {
+    height: 100%;
+}
+main .container .searcher {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 40px;
+    width: 450px;
+    padding: 8px 12px;
+	border: black 2px solid;
+ 	 margin: 5px;
+	font-family: ;
+}
+main .container .searcher button {
+    border: none;
+    background-color: transparent;
+	border-color: black;
+	
+}
+main .container .searcher input {
+    width: 100%;
+    border: none;
+    color: whitesmoke;
+    background-color: transparent;
+	
+}
+
+main .container .searcher input{
+    
+    color: rgb(7, 7, 7);
+}
+
+main .container .searcher-buttons {
+    display: flex;
+    gap: 10px;
+}
+main .container .searcher-buttons button{
+    border: none;
+    border-radius: 4px;
+    background-color: #6e6666;
+    padding: 12px;
+    color: rgb(255, 253, 253);
+}
+
+
+main .container p {
+    font-size: small;
+    color: rgb(255, 251, 251);
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    background-color: #020202;
+	 position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+footer section {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    color: #999da2;
+}
+footer section.more-info {
+    border-top: #3b3b3b solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+footer section.more-info div {
+    display: flex;
+    gap: 18px;
+}
+footer section.more-info div a {
+    color: #999da2;
+    text-decoration: none;
+}
